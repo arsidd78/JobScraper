@@ -8,7 +8,7 @@ Hi there! Welcome to my Job Scraper application. This nifty Python tool allows y
 
 Easy-to-Use Interface: With a simple and intuitive GUI, you can input your job preferences and start scraping in no time.
 Automated Web Scraping: Utilizes the power of Selenium to automate the process of fetching job listings from multiple websites.
-Personal Touch: Developed and crafted by [Your Name], this application reflects my passion for programming and desire to create practical solutions.
+This application reflects my passion for programming and desire to create practical solutions.
 
 Convenient Logging: Logs are maintained to track program activities and troubleshoot any issues that may arise.
 Seamless Integration: Integrates seamlessly with ChromeDriver, making web interactions seamless and efficient.
