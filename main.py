@@ -141,8 +141,8 @@ class Scraper(CTk):
         WebDriverWait(glassdoor_driver,25).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="JobCard_jobTitle__rbjTE"]')))
         title2=glassdoor_driver.find_elements('xpath','//a[@class="JobCard_jobTitle__rbjTE"]')
         # Company:
-        WebDriverWait(glassdoor_driver,25).until(EC.presence_of_all_elements_located((By.XPATH,'//div[@class="JobCard_location__N_iYE"]')))
-        company2=glassdoor_driver.find_elements('xpath','//div[@class="JobCard_location__N_iYE"]')
+        WebDriverWait(glassdoor_driver,25).until(EC.presence_of_all_elements_located((By.XPATH,'//span[@class="EmployerProfile_employerName__8w0tV"]')))
+        company2=glassdoor_driver.find_elements('xpath','//span[@class="EmployerProfile_employerName__8w0tV"]')
         # Link:
         WebDriverWait(glassdoor_driver,25).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="JobCard_trackingLink__zUSOo"]')))
         link2=glassdoor_driver.find_elements('xpath','//a[@class="JobCard_trackingLink__zUSOo"]')
@@ -220,5 +220,3 @@ class Scraper(CTk):
        
 scrap=Scraper()
 scrap.mainloop()
-
-
