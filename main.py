@@ -43,10 +43,10 @@ class Scraper(CTk):
         # Entries:
         self.search_entry=CTkEntry(self,text_color='black',font=self.normal,width=250,border_width=0,height=25)
         self.search_entry.grid(row=0,column=1,padx=5)
-        self.search_entry.insert(0,'Python')
+        
         self.location_entry=CTkEntry(self,text_color='black',font=self.normal,width=250,border_width=0,height=25)
         self.location_entry.grid(row=1,column=1,padx=5)
-        self.location_entry.insert(0,'karachi')
+        
         # Buttons:
         self.search_button=CTkButton(self,text='Search',text_color='white',fg_color='red',bg_color='black',command=self.SEARCH)
         self.search_button.grid(row=0,column=2)
